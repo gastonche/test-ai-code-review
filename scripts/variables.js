@@ -1,7 +1,6 @@
-
 let age = 20;
-let myAge = ++age
-console.log(myAge, "my age"); 
+let myAge = ++age;
+console.log(myAge, "my age");
 console.log(age, "age");
 const size = 32;
 
@@ -14,12 +13,12 @@ let diff = num1 - num2; // subtract numbers
 let product = num1 * num2; // multiply numbers
 let quotient = num1 / num2; // divide numbers
 let remainder = num1 % num2; // find remainder
-num1+= 10; // num1 = num1+10
-num1-= 10; // num1 = num1-10
-num1++
-num1--
-++num1
-num1**4
+num1 += 10; // num1 = num1+10
+num1 -= 10; // num1 = num1-10
+num1++;
+num1--;
+++num1;
+num1 ** 4;
 
 num1 = 10;
 num2 = num1;
@@ -28,7 +27,7 @@ console.log(num1, num2);
 
 // Strings
 const str1 = "Hello World";
-const str2 = "10"
+const str2 = "10";
 const str3 = str1 + str2;
 console.log(str3);
 console.log(str1.length);
@@ -45,6 +44,7 @@ const arr1 = [1, 2, 3, 4, 5];
 const arr2 = arr1;
 arr1[1] = 10;
 console.log(arr1, arr2, arr1[1]);
+console.log({ arr1, arr2 });
 
 // Objects
 const person = {
@@ -52,7 +52,7 @@ const person = {
   age: 30,
   city: "New York",
   sex: "male",
-  hobbies: ["reading", "running", "coding"]
+  hobbies: ["reading", "running", "coding"],
 };
 
 const key = "name";
